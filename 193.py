@@ -1,0 +1,1 @@
+group_by_age = df.groupby('age')['cholesterol'].mean().reset_index()
